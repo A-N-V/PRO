@@ -1,0 +1,84 @@
+.footer {
+    border-top: 2px solid #f5f5f5;
+    padding-top: 70px;
+    font-size: 14px;
+}
+
+.text__block {
+    width: 26%;
+}
+
+.nav__block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.nav__block__links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 170px;
+}
+
+.nav__block__links a {
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+
+.promo__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo__btnBlock {
+    display: flex;
+    width: 210px;
+    justify-content: space-between;
+}
+
+.promo__buisnessBtn {
+    width: 134px;
+    height: 40px;
+    border: 2px solid #00766c;
+    text-align: center;
+    border-radius: 40px;
+    color: #00766c;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.promo__buisnessBtn:hover {
+    border: 2px solid #319083;
+    color: #319083;
+}
+
+.promo__linkBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+}
+
+.promo__linkBtn:hover {
+    background-color: #ebebeb;
+}
+
+.text__block__text {
+    color: #9b9b9b;
+}
+
+.promo__block__text {
+    color: #9b9b9b;
+}
+
+.mail {
+    color: #1358bf;
+}

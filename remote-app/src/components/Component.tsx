@@ -1,9 +1,14 @@
 import React from "react";
+import styles from "../../styles/Article.module.css";
 
 function Component() {
     return (
         
-        <h2>REMOTE COMPONENT</h2>
+        <main className={styles.wrap}>
+            <div>
+                <h1>Component</h1>
+            </div>
+        </main>
        
     )
 }
